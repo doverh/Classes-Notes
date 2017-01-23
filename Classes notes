@@ -1,1 +1,31 @@
 Classes notes
+
+January 11th, 2017
+
+Git installation and basic commands
+
+January 13th, 2017
+
+Ruby first commands. Homework is to print the number 1 to 100 to the console.
+Next replace all numbers divisible by 3 with mined, all numbers divisible by 5 with minds and all numbers divisible by 3 & 5 with mined minds. Just do one step at a time and Please Work Together.....
+
+January 18th, 2017
+Was introduced the concept of test first TDD.  We start creating classes based on tdd (See file TDD for more information)
+
+Homework 1
+"Complete the mined minds kata using arrays. You should have a function that returns an array containing the numbers 1 through 100, but where numbers divisible by 3 are replaced with “Mined”, divisible by 5 are replaced with “Minds”, and divisible by both 3 and 5 are replaced with “Mined Minds”. You should have a test suite to demonstrate that your code functions as it should.
+
+There are many ways to complete this. Creating an empty array and then filling it up (in a similar way that we did when we just printed the results to the screen) will involve the least new concepts. Feel free to experiment with other approaches, and make sure you commit regularly to git."
+
+Homework 2
+
+After mined minds kata with arrays make a random pairing function.
+
+Random Pairs Function: Make a function that takes in an array of names(strings), Returns an array of arrays(multidemensional array) and if there is an odd number of names then add that name into another group of names. Use TDD and commit to github with each passing test. After mined minds kata with arrays make a random pairing function.
+
+Random Pairs Function: Make a function that takes in an array of names(strings), Returns an array of arrays(multidemensional array) and if there is an odd number of names then add that name into another group of names. Use TDD and commit to github with each passing test.
+
+Next Please complete up to exercise 14 in Learning ruby the hard way.
+
+January 20th, 2017
+We review homework and build together the solution for both exercises.
