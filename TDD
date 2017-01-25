@@ -1,5 +1,11 @@
-Whats is
+- Create a new test (function) - test_main_class
+- The first test should be based on the working set of data that we will be using in the problem.
+- Test have to fail (because you don't have an implementation)
+- Create a new system functionality - main_class
+- Test should pass
+- Write next test
 
+Framework
 Minitest is a framework included with Ruby 1.9, and allows both xUnit and RSpec style tests
 
 How to install

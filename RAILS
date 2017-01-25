@@ -1,0 +1,79 @@
+- INSTALATION
+
+- Install ruby
+
+    - $ sudo apt-get install ruby-full
+- Install gems
+
+    - $rvm rubygems current
+- Install rails
+
+    - $gem install rails - http://railsinstaller.org/en
+- Create a new app
+
+    - $rails new app_name
+
+- GEM FILES
+
+Should always be in the root directory. A gem is a collection of Ruby code that we can extract into a “collection” which we can call later.
+Contain methods signatures, suggestion of implementations created by other developers and are inside the GEM FILE.
+Install local gems while suppressing the installation of production gems using the --without production option:
+$ bundle install --without production
+
+          3.CREATE REPOSITORIES
+
+-- Commit app - bitbucket
+$ git init
+$ git add -A
+$ git commit -m "Initialize repository"
+
+-- Create repository
+$ git remote add origin git@bitbucket.org:<username>/toy_app.git
+$ git push -u origin --all
+or
+$ git push master
+$ git checkout branchname
+
+-  CREATE DATABASE
+
+Download postgresql
+www.enterprisedb.com/crossover-thankyou
+Run commands
+chmod +x file-name.run
+./file-name.run
+
+Update database.yml file
+default: &default
+  adapter: posgresql
+  database: mydb
+  username: postgres
+  password: SabeNada@#$28
+  pool: 5
+  timeout: 5000
+
+Run $gem install pg
+Open your gem file
+Comment sqllite3
+Add gem 'pg'
+
+Run $bundle install
+
+     5. HEROKU
+1. Create a free account
+2. Download https://toolbelt.heroku.com/install-ubuntu.sh
+3. Setup a database
+4. Create git repository
+5. Push and deploy the app via heroku
+
+- GENERATE  CONTROLLERS
+
+--Generate controller
+rails generate controller home index
+
+- ROUTES
+
+open config > routes.rb
+root :to <<put your home page>>
+
+MODELS AND
+TIPS: Development tool in the cloud https://c9.io/
