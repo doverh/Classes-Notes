@@ -1,0 +1,17 @@
+CLUES
+
+require "minitest/autorun"
+require_relative "winning_numbers.rb" #here you add the name of your file
+
+class TestWinningNumbers < Minitest::Test
+
+#DEFINITION ALWAYS HAVE TO START WITH TEST
+array = []
+assert_equal(false,win_number(10,array))
+end
+
+SPLAT
+
+- When used should not carry "[]"
+- Example multi(num, *nums)  -- multi(1, 2,4,5,6,7)
+- Without splat multi(num,nums) -- multi(1, [2,4,5,6,7])

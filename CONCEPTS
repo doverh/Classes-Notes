@@ -1,0 +1,187 @@
+CONCEPTS
+
+Boundary analysis
+
+Boundary values are the maximum and the minimun values of a partition. Values out of partition can be tested as out boundary values.
+
+Code coverage
+
+Statement coverage is the number of times we need to cover all code ( to go through all nodes)
+
+To calculate Statement Coverage, find out the shortest number of paths following which all the nodes will be covered
+
+1. Component testing standard:
+
+White and black box measurement/design techniques.
+
+2. STATIC ANALYSIS
+
+3. Test Plan, what’s included
+
+4. Full statement and branch coverage
+
+Given the following code, which is true about the minimum number of test cases
+
+required for full statement and branch coverage: Read P Read Q IF P+Q > 100 THEN
+
+Print “Large” ENDIF If P > 50 THEN Print “P Large” ENDIF
+
+5. Given the following code, which is true: IF A > B THEN C = A – B ELSE
+
+C = A + B ENDIF Read D IF C = D Then Print “Error” ENDIF
+
+A
+
+1 test for statement coverage, 3 for branch coverage
+
+B
+
+2 tests for statement coverage, 2 for branch coverage
+
+C
+
+2 tests for statement coverage. 3 for branch coverage
+
+D
+
+3 tests for statement coverage, 3 for branch coverage
+
+E
+
+3 tests for statement coverage, 2 for branch coverage
+
+STATEMENT
+
+Which, how much statements in a method class has been executed.
+
+Concepts of defect error
+
+ERROR GUESSING
+
+Pick up and read the newspaper
+
+Look at what is on television
+
+If there is a program that you are interested in watching
+
+then switch the the television on and
+
+watch the program
+
+Else Continue reading the newspaper
+
+If there is a crossword in the newspaper
+
+then try and complete the crossword
+
+ABSTRACT
+
+HUMAN →ERROR → DEFECT (FAULT,BUG) → EXECUTED CAUSE FAIL
+
+HOW MUCH TEST IS ENOUGH
+
+Take in consideration risk, safety, budget, time
+
+COMMON TESTING ACTIVITIES
+
+Planning and control, choosing test conditions, designing and executing test cases, checking results, evaluating exit criteria, report and closure activities.
+
+PRINCIPLES
+
+1. Testing can show that defects are presents, but cannot prove that defects don’t exists in a system.
+
+2. Exhaustive testing is Impossible, it means that test everything is not feasible, and risk and priority should be focus
+
+3. Test early
+
+4. Defect clustering in agile its a reality - In waterfall should separate system in modules.
+
+5. Pesticide paradox – same tests executed over and over again tend to be ineffective, and tests should be reviewed or new tests added.
+
+6. Testing is context dependent
+
+7. Absence of errors fallacy
+
+Finding and fixing defects doesn’t make sense if the system doesn’t fulfill the user needs expectation.
+
+EXPECTED OUTCOMES
+
+Are defined by software’s behavior, derived from specification, not from code,
+
+include outputs from a screen and changes to database and files, should be predicted before test run.
+
+NON- FUNCTIONAL TESTING INCLUDES testing to see where the system does not function properly.
+
+TESTING TERMS STANDARD
+
+BS7925-1
+
+UNREACHABLE CODE SHOULD BE TESTING USING A STATIC ANALYSIS TOOL. It can find the use of a variable before it has been defined, the re-definition of a variable before it has been used, array bound violations.
+
+BACK BOX TECHNIQUES
+
+Equivalene partitioning, State Transition Testing, Syntax Testing, Boundary Value testing
+
+INSPECTION – LED BY AUTHOR AND USE ENTRY EXIT CRITERIA
+
+PEER REVIEW – MADE WITHOUT AUTHOR PARTICIPATION
+
+WALKTHROUGH – LED BY TRAINED MODERATOR OR LEADER
+
+REGRESSION TESTING
+
+SHOULD BE PERFORMED AFTER SOFTWARE HAS CHANGED
+
+OR WHEN THE ENVIRONMENT HAS CHANGED
+
+STATIC AND DYNAMIC TOOLS CAN BE USED BY DEVELOPERS TO PERFORM TEST
+
+EXPECTED RESULTS ARE MOST USEFUL WHEN SPECIFIED IN ADVANCE
+
+MAIN PURPOSE OF INTEGRATION STRATEGY FOR INTEGRATION TESTING
+
+IN THE SMALL IS TO SPECIFY WHICH MODULES COMBINE WHEN AND HOW MANY AT ONCE
+
+COMPONENT TEST STANDARD
+
+ACCEPTANCE TESTING OBJECTIVE IS TESTING FOR A BUSINESS PERSPECTIVE.
+
+Metric and attributes
+
+Metric is an unit used to describe an attribute. Ex Kilograms is a metric for weight.
+
+ex. number of test cases executed by one person
+
+number of defects exists in one module
+
+Metrics life cycle
+
+Analysis
+
+- identification of metrics
+
+- define identified metrics
+
+Communicate
+
+explain why these metrics were chose to testing team and stakeholders
+
+educate testing team on how to collect data for this metric
+
+Evaluation
+
+Capture and analyze data
+
+Report
+
+Develop the report with effective conclusion
+
+Distribute report to the effective conclusion
+
+Take feedback from stakeholders
+
+% of test cases executed
+
+% of test cases completed = (test cases passed / total number of test cases) *100
+
+http://www.softwaretestinghelp.com/software-test-metrics-and-measurements/
